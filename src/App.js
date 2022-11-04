@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import {
   readFavoritePokemonIds,
-  updateFavoritePokemons,
+  updateFavoritePokemons
 } from './services/pokedexService';
 
 import pokemons from './data';
@@ -39,7 +39,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Pokédex</h1>
+        <h1>Pokédex!</h1>
         <nav>
           <Link className="link" to="/">{`Home`}</Link>
           <Link className="link" to="/about">{`About`}</Link>
